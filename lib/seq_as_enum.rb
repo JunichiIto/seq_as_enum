@@ -11,8 +11,7 @@ module SeqAsEnum
     raise ArgumentError, 'Cannot use prefix option with data_as option' if prefix && data_as
     raise ArgumentError, 'Cannot use sep option without prefix option' if sep != DEFAULT_SEP && !prefix
 
-    counter = init
-    key_values = names.to_h { |name| [name, counter].tap { counter = counter.succ } }
+    key_values = names.zip(Enumerator.produce(init, &:succ)).to_h
 
     if data_as
       class_name = "#{data_as}Data"
