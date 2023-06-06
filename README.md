@@ -1,3 +1,5 @@
+![workflow status](https://github.com/JunichiIto/seq_as_enum/actions/workflows/ruby.yml/badge.svg)
+
 # SeqAsEnum
 
 Provides `seq_as_enum` method to define constants for sequence values. 
