@@ -24,7 +24,7 @@ RSpec.describe SeqAsEnum do
 
       seq_as_enum :FOO, :BAR, :BAZ, init: 10
     end
-    it 'defines constants with 0-based values' do
+    it 'defines constants which start from init value' do
       expect(WithInitOption::FOO).to eq 10
       expect(WithInitOption::BAR).to eq 11
       expect(WithInitOption::BAZ).to eq 12
