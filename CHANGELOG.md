@@ -1,5 +1,7 @@
 ## [Unreleased]
 
+## [0.3.0] - 2023-06-06
+
 - Allow override constant
 
 ## [0.2.0] - 2023-06-06
