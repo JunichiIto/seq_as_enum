@@ -8,11 +8,11 @@ Gem::Specification.new do |spec|
   spec.authors = ["Junichi Ito"]
   spec.email = ["me@jnito.com"]
 
-  spec.summary = "Provide enum like sequences as constants or Data object."
-  spec.description = "Provide enum like sequences as constants or Data object."
+  spec.summary = "Provide enum like sequences as constants."
+  spec.description = "Provide enum like sequences as constants."
   spec.homepage = "https://github.com/JunichiIto/seq_as_enum"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.2.0"
+  spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 

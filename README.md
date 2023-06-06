@@ -123,6 +123,8 @@ class AwesomeCsv
 end
 ```
 
+NOTE: If you use Ruby 3.1.x or 3.0.x, data_as will use Struct instead of Data.
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.

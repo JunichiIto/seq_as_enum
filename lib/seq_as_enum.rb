@@ -14,7 +14,7 @@ module SeqAsEnum
 
     if data_as
       class_name = "#{data_as}Data"
-      data_class = Data.define(*names)
+      data_class = const_defined?(:Data) ? Data.define(*names) : Struct.new(*names, keyword_init: true)
       const_set!(class_name, data_class)
       data = data_class.new(**key_values)
       const_set!(data_as, data)
