@@ -97,7 +97,7 @@ seq_as_enum :Name, :Address, :Phone, prefix: :Col, sep: false
 
 ### data_as option 
 
-You can get sequence values as Data object instead of constants:
+With `data_as` option, you can get sequence values as Data object instead of constants:
 
 ```ruby 
 class AwesomeCsv
@@ -123,7 +123,7 @@ class AwesomeCsv
 end
 ```
 
-NOTE: If you use Ruby 3.1.x or 3.0.x, data_as will use Struct instead of Data.
+NOTE: If you're using Ruby 3.1.x or 3.0.x, data_as will use Struct instead of Data.
 
 ## Development
 
@@ -133,7 +133,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/seq_as_enum. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/seq_as_enum/blob/main/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/JunichiIto/seq_as_enum. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/JunichiIto/seq_as_enum/blob/main/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -141,4 +141,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the SeqAsEnum project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/seq_as_enum/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the SeqAsEnum project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/JunichiIto/seq_as_enum/blob/main/CODE_OF_CONDUCT.md).
