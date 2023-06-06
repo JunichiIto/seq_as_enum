@@ -1,4 +1,6 @@
 ## [Unreleased]
+
+## [0.3.1] - 2023-06-07
 - Avoid defining data class as constant
 
 ## [0.3.0] - 2023-06-06
