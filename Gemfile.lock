@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    seq_as_enum (0.1.0)
+    seq_as_enum (0.2.0)
 
 GEM
   remote: https://rubygems.org/

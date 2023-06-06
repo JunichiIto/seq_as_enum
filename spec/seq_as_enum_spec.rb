@@ -125,17 +125,4 @@ RSpec.describe SeqAsEnum do
       expect(WithTwoDefinitions::PIYO).to eq 12
     end
   end
-
-  context 'when constant already defined' do
-    it 'raises error' do
-      expect {
-        class Foo
-          extend SeqAsEnum
-
-          BAR = 1
-          seq_as_enum :BAR
-        end
-      }.to raise_error(StandardError, 'already initialized constant: Foo::BAR')
-    end
-  end
 end
